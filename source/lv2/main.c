@@ -116,7 +116,7 @@ int main(){
 #elif defined XTUDO_THEME
     console_set_colors(CONSOLE_COLOR_BLACK,CONSOLE_COLOR_PINK); // Pink text on black bg
 #elif defined DEFAULT_THEME
-    console_set_colors(CONSOLE_COLOR_BLUE,CONSOLE_COLOR_WHITE); // White text on blue bg
+    console_set_colors(CONSOLE_COLOR_RED,CONSOLE_COLOR_WHITE); // White text on Red bg
 #else
     console_set_colors(CONSOLE_COLOR_BLACK,CONSOLE_COLOR_GREEN); // Green text on black bg
 #endif
@@ -223,7 +223,7 @@ int main(){
     } else if (xenon_get_console_type() == 1) {
 	    printf(" * Console: Xenon/Zephyr\n");
     } else if (xenon_get_console_type() == 2) {
-	    printf(" * Console: Falcon\n");
+	    printf(" * Console: Playstation 3\n");
     } else if (xenon_get_console_type() == 3) {
 	    printf(" * Console: Jasper\n");
     } else if (xenon_get_console_type() == 4) {
